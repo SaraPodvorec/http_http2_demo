@@ -16,7 +16,6 @@ section {
     width: 100%;
 }
 
-/* Tablet responsiveness */
 @media (max-width: 1024px) {
     .content {
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -24,7 +23,7 @@ section {
         padding: 40px 15px;
     }
     
-    header h1 {
+    h1 {
         font-size: 2em;
     }
     
@@ -33,7 +32,6 @@ section {
     }
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .content {
         grid-template-columns: 1fr;
@@ -41,11 +39,7 @@ section {
         padding: 30px 15px;
     }
     
-    header {
-        padding: 30px 15px;
-    }
-    
-    header h1 {
+    h1 {
         font-size: 1.8em;
     }
     
@@ -62,17 +56,12 @@ section {
     }
 }
 
-/* Small mobile devices */
 @media (max-width: 480px) {
     .content {
         padding: 20px 10px;
     }
     
-    header {
-        padding: 20px 10px;
-    }
-    
-    header h1 {
+    h1 {
         font-size: 1.5em;
     }
     
