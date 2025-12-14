@@ -1,0 +1,12 @@
+article {
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+main {
+    flex-grow: 1;
+}
